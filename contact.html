@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebsite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+</header>
+    <main>
+        <h2>Contact Me</h2>
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="number">Number:</label><br>
+            <input type="number" id="number" name="number" required><br><br>
+
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date" required><br><br> 
+
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+           <p>What do you like?</p>
+
+            <input type="checkbox" id="coding" name="interest" value="coding">
+            <label for="coding">Coding</label>
+
+            <input type="checkbox" id="reading" name="interest" value="reading">
+            <label for="reading">Reading</label>
+
+            <input type="checkbox" id="gaming" name="interest" value="gaming">
+            <label for="gaming">Gaming</label>
+
+            <br><br>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="select">Select a country</option>
+                <option value="egypt">Egypt</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select><br><br>
+
+             <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+         <div class="alert">   
+                you have successfully submitted the form.
+            </div>
+        <label for="modal" class="open-modal">Open Modal</label>
+
+<input type="checkbox" id="modal">
+
+<div class="modal">
+    <div class="modal-content">
+
+        <label for="modal" class="close-modal">X</label>
+
+        <h2>Welcome</h2>
+        <p>This is a CSS only modal window.</p>
+
+    </div>
+</div>    
+    </main>
+    <footer>
+        <p>&copy; 2026 My Blog</p>
+    </footer> 
+    
